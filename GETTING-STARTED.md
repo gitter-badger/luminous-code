@@ -2,10 +2,15 @@
 
 ### Installation
 
+* in the *Extensions and Updates* dialog in Visual Studio, search for 'luminous', then select 
+and install the *Luminous Code* package that you need.
+
+  or
+
+* in the *Visual Studio Marketplace* website, search for 'luminous', then select and install the
+*Luminous Code* package that you need.
 
 ---
-
-### Luminous Code Breakdown
 
 #### Luminous.Code.Core <small>(class library project)</small>
 
@@ -13,10 +18,10 @@
 that holds the lower level classes, methods and extension methods that get used by the more 
 specialised projects that that use it as a dependency.
 
-It adds a series of namespaces:
+`Luminous.Code.Core` contains several namespaces:
 
 * `Luminous.Code.StringExtensions`
-* `Luminous.Code.namespace`
+* `Luminous.Code.???`
 
 Note the lack of `Core` in the namespace names. It was my decision that there was no benefit
 to extending the length of namespaces that sometimes makes the namespaces sound a bit odd.
@@ -29,10 +34,11 @@ to extending the length of namespaces that sometimes makes the namespaces sound 
 that has a project reference to the `Luminous.Code.Core` project,
 as it uses some of the code found in it.
 
-It adds a series of namespaces:
+`Luminous.Code.VisualStudio` contains several namespaces:
 
 * `Luminous.Code.VisualStudio.Packages`
 * `Luminous.Code.VisualStudio.Commands`
+* `Luminous.Code.VisualStudio.TeamExplorer`
 
 ##### Luminous.Code.VisualStudio.Packages <small>(namespace)</small>
 
