@@ -10,6 +10,11 @@
           <absolutePath>https://readthedocs.org/projects/luminous-code/</absolutePath>
           <viewKind>External Document</viewKind>
         </Favorite>
+        <Favorite>
+          <name>VSTS Package Feed</name>
+          <absolutePath>https://lumiinus.pkgs.visualstudio.com/_packaging/luminous-code/nuget/v3/index.json</absolutePath>
+          <viewKind>External Document</viewKind>
+        </Favorite>
       </favorites>
     </Folder>
     <Folder>
