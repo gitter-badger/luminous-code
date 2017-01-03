@@ -17,18 +17,22 @@ repo_url: 'https://github.com/luminous-software/luminous-code'
 copyright: 'Copyright (c) 2017 Luminous Software Solutions'
 
 # Documentation and theme
+docs_dir: '.mkdocs'
+site_dir: 'docs'
 theme: 'material'
 
 # TOC
 pages:
-  - Overview: index.md
-  - Getting Started: GETTING-STARTED.md
-  - Contributing: CONTRIBUTING.md
-  - License: LICENSE.md
+  - Overview: 'index.md'
+  - Getting Started: 'getting-started.md'
+  - What's Changed: 'changelog.md'
+  - What's Coming: 'roadmap.md'
+  - Want to Contribute?: 'contributing.md'
+  - License: 'license.md'
 
 # Options
 extra:
-  version: '0.1.0'
+  version: '0.1.0.1'
   logo: 'images/logo.png'
 
   palette:
