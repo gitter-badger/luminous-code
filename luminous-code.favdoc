@@ -28,6 +28,17 @@
         </Favorite>
       </favorites>
     </Folder>
+    <Folder>
+      <name>VSTS</name>
+      <folders />
+      <favorites>
+        <Favorite>
+          <name>VSTS Dashboard</name>
+          <absolutePath>https://lumiinus.visualstudio.com/luminous-code</absolutePath>
+          <viewKind>External Document</viewKind>
+        </Favorite>
+      </favorites>
+    </Folder>
   </folders>
   <favorites />
 </Favorites>

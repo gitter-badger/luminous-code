@@ -1,0 +1,14 @@
+{
+  "commands": {
+    "generate-docs": {
+      "fileName": "cmd.exe",
+      "workingDirectory": ".",
+      "arguments": "/c .generate-docs.cmd"
+    },
+    "serve": {
+      "fileName": "cmd.exe",
+      "workingDirectory": ".",
+      "arguments": "/c .serve.cmd"
+    }
+  }
+}

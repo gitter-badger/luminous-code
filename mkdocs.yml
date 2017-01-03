@@ -23,7 +23,7 @@ theme: 'material'
 
 # TOC
 pages:
-  - Overview: 'index.md'
+  - Luminous Code: 'index.md'
   - Getting Started: 'getting-started.md'
   - What's Changed: 'changelog.md'
   - What's Coming: 'roadmap.md'

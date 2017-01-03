@@ -25,8 +25,8 @@ There's probably no point googling it, I'm pretty sure it was me that coined the
 
 ## Benefits
 
-* Keeps your code as DRY as possible
-* Allows your classes and methods to not break the
+* Helps you to keep your code as DRY as possible
+* Helps you to ensure that your classes and methods adhere to the
 [Single Resposibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 
 ---

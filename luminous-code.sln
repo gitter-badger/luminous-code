@@ -5,14 +5,19 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00058F45-5598-40B3-BB3D-84CA49650378}"
 	ProjectSection(SolutionItems) = preProject
+		.generate-docs.cmd = .generate-docs.cmd
 		.gitignore = .gitignore
-		CHANGELOG.md = CHANGELOG.md
-		.github\CONTRIBUTING.md = .github\CONTRIBUTING.md
-		GETTING-STARTED.md = GETTING-STARTED.md
-		LICENSE.md = LICENSE.md
+		.serve.cmd = .serve.cmd
+		.mkdocs\changelog.md = .mkdocs\changelog.md
+		commands.json = commands.json
+		.mkdocs\contributing.md = .mkdocs\contributing.md
+		.mkdocs\getting-started.md = .mkdocs\getting-started.md
+		.mkdocs\index.md = .mkdocs\index.md
+		.mkdocs\license.md = .mkdocs\license.md
 		luminous-code.favdoc = luminous-code.favdoc
 		mkdocs.yml = mkdocs.yml
 		README.md = README.md
+		.mkdocs\roadmap.md = .mkdocs\roadmap.md
 		src\info\VersionInfo.cs = src\info\VersionInfo.cs
 	EndProjectSection
 EndProject

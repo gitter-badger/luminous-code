@@ -38,36 +38,36 @@ as it uses some of the code found in it.
 * `Luminous.Code.VisualStudio.Commands`
 * `Luminous.Code.VisualStudio.TeamExplorer`
 
-### VisualStudio.Packages <small>(namespace)</small>
+### Packages <small>(namespace)</small>
 
 The `Luminous.Code.VisualStudio.Packages` namespace contains all of the plumbing code that
 a Visual Studio package needs to interact with the Visual Studio IDE.
 
-### VisualStudio.Packages.LuminousPackage <small>(class)</small>
+### Packages.LuminousPackage <small>(class)</small>
 
 The `LuminousPackage` class is an abstract base class that you inherit your own
 packages from.  It abstracts away the packages and command interact with the Visual Studio IDE.
 
 ##  
 
-### VisualStudio.Commands <small>(namespace)</small>
+### Commands <small>(namespace)</small>
 
 The `Luminous.Code.VisualStudio.Commands` namespace contains all of the plumbing code that
 a command needs to interact with the Visual Studio IDE (via the command's parent `Package`.
 
-### VisualStudio.Packages.LuminousCommand <small>(class)</small>
+### LuminousCommand <small>(class)</small>
 
 `LuminousCommand` is an abstract class, which acts as the
 common base class for the `StaticCommand` class and the `DynamicCommand` class.
 It contains all of the plumbing code that a command needs to interact easily with
 its parent package, which has the ability to communicates with the IDE.
 
-### VisualStudio.Packages.StaticCommand <small>(class)</small>
+### StaticCommand <small>(class)</small>
 
 `StaticCommand` is useful for commands whose text doesn't need to change,
 and which are always visible and always enabled.
 
-### VisualStudio.Packages.DynamicCommand <small>(class)</small>
+### DynamicCommand <small>(class)</small>
 
 `DynamicCommand` is used for commands whose *text* may need to change, and which may
 need to dynamically determine if the command needs to be *visible* or *enabled*. 
