@@ -43,7 +43,7 @@ as it uses some of the code found in it.
 ##### Luminous.Code.VisualStudio.Packages <small>(namespace)</small>
 
 The `Luminous.Code.VisualStudio.Packages` namespace contains all of the plumbing code that
-a Visual Studio package needs to interact with the VIsual Studio IDE.
+a Visual Studio package needs to interact with the Visual Studio IDE.
 
 ###### Luminous.Code.VisualStudio.Packages.LuminousPackage <small>(class)</small>
 
