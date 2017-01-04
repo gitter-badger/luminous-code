@@ -1,5 +1,7 @@
 ## Luminous Code
 
+[![Join the chat at https://gitter.im/luminous-software/luminous-code](https://badges.gitter.im/luminous-software/luminous-code.svg)](https://gitter.im/luminous-software/luminous-code?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### Why?
 I wrote the *Luminous Code* framework to be a collection of projects, namespaces, classes, 
 methods, and extention methods designed to keep the code that I write as
